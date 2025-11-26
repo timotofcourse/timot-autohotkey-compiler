@@ -12,6 +12,7 @@ This tool is highly experimental and was made to automate my compilations of my 
 
 ## Usage
 
+Make sure this script and the .ahk files are in a folder called "AutoHotKey" in your Documents folder
 This tool only works if the .ahk files are in the same folder as the python script.
 Replace the icon with another one or don't, I don't really care.
 
