@@ -12,7 +12,8 @@ This tool is highly experimental and was made to automate my compilations of my 
 
 ## Usage
 
-This tool only works if the .ahk files are in the same folder as the python script
+This tool only works if the .ahk files are in the same folder as the python script.
+Replace the icon with another one or don't, I don't really care.
 
 Compile Scripts
 
