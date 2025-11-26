@@ -25,3 +25,16 @@ Run Scripts
 ```powershell
 python .\ahkcompiler.py --run-all
 ```
+
+## Add it to your powershell profile (optional)
+
+Powershell 7+ only
+
+```powershell
+function Compile-AHK {
+    if (!(Test-Path $autohotkey_compiler)) {
+        python "path\to\ahkcompiler.py" $args
+    }
+}
+Set-Alias -Name ahkc -Value Compile-AHK
+```
