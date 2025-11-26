@@ -32,7 +32,7 @@ Powershell 7+ only
 
 ```powershell
 function Compile-AHK {
-    if (!(Test-Path $autohotkey_compiler)) {
+    if (!(Test-Path "path\to\ahkcompiler.py")) {
         python "path\to\ahkcompiler.py" $args
     }
 }
